@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 738286a40f11fa849bfc0c35de478743
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tomatoPrefab: {fileID: 3716484887980621265, guid: 778bb82906d6f6c4bb369727c6fe7156,
+      type: 3}
+  - lettucePrefab: {instanceID: 0}
+  - hamburgPrefab: {instanceID: 0}
+  - cheesePrefab: {instanceID: 0}
+  - bunPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
