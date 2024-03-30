@@ -38,7 +38,7 @@ public class GameInput : MonoBehaviour
             playerInputActions.LoadBindingOverridesFromJson(PlayerPrefs.GetString(PLAYER_PREFS_BINDINGS));
         }        
         
-        playerInputActions.Enable();
+        playerInputActions.Player.Enable();     // was playerInputActions.Enable(); 03/27/2024
 
         playerInputActions.Player.Interact.performed += InteractPerformed;
         playerInputActions.Player.InteractAlternate.performed += InteractAlternatePerformed;

@@ -39,7 +39,7 @@ public class DeliveryResultsUI : MonoBehaviour
         iconImage.sprite = successSprite;
         messageText.text = DELIVERY_SUCCESS;
         animator.SetTrigger(POPUP);
-        //Debug.Log("Succcess");
+        //Debug.Log("Success");
     }
 
     private void DeliveryManagerOnRecipeFailed(object sender, EventArgs e){
